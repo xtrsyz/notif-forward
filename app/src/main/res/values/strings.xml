@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Notification Forwarder</string>
+
+    <!-- Status labels -->
+    <string name="status_active">Forwarder aktif ✓</string>
+    <string name="status_inactive">Forwarder nonaktif</string>
+
+    <!-- Controls -->
+    <string name="switch_label">Aktifkan forwarder</string>
+    <string name="btn_listener_settings">Buka Notification Access</string>
+
+    <!-- Inline warnings -->
+    <string name="warning_listener">Notification Access belum diaktifkan</string>
+    <string name="warning_battery">Battery Optimization masih aktif</string>
+
+    <!-- Battery optimisation button states -->
+    <string name="battery_opt_request">Nonaktifkan Battery Optimization</string>
+    <string name="battery_opt_ok">Battery Optimization OK ✓</string>
+
+    <!-- Foreground-service notification -->
+    <string name="channel_name">Forwarder Service</string>
+    <string name="channel_description">Menampilkan status forwarder aktif di background</string>
+    <string name="service_running">Memantau notifikasi GoPay Merchant…</string>
+</resources>

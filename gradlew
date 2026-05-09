@@ -142,8 +142,8 @@ if "$cygwin" || "$msys" ; then
             arg=$( cygpath --path --ignore --mixed "$arg" )
         fi
         # Roll the args list around exactly as many times as the number of
-        # temporary variables.  (Those variables don't are cleared first to
-        # mitigate of the temporary variable's type.)
+        # temporary variables.  (Those variables are cleared first to
+        # mitigate the temporary variable's type.)
         #
         # All of this is necessary to correctly support even a few weird things:
         #   1. Arg with spaces
